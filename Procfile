@@ -1,2 +1,3 @@
-web: gunicorn exercise/main:app
+web: gunicorn exercise.main:app
+
 
