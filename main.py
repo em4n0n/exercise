@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return open("index.html").read()
+    return open("templates/index.html").read()
 
 @app.route('/generate-plan', methods=['POST'])
 def generate_plan():
